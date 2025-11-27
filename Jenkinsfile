@@ -22,7 +22,7 @@ pipeline {
 
         stage('Build Image') {
             steps {
-                sh 'docker build -t trackgrid-svc:4 .'
+                sh 'docker build -t trackgrid-svc:4 trackgrid'
             }
         }
 
